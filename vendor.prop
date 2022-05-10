@@ -162,6 +162,7 @@ ro.vendor.display.sensortype=2
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.hwui.use_hint_manager=true \
+    debug.sf.disable_client_composition_cache=1 \
     debug.hwui.target_cpu_time_percent=30
 
 # DRM
