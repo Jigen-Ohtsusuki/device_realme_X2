@@ -8,3 +8,10 @@ ro.lmk.downgrade_pressure=100
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
+<<<<<<< HEAD
+=======
+
+# Shutdown
+ro.build.shutdown_timeout=2
+
+>>>>>>> e873fc3 (X2: props: Switch to SkiaGL Threaded)
