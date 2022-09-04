@@ -3,3 +3,6 @@ type hal_oppo_hwservice, hwservice_manager_type;
 
 # Dolby
 type hal_dms_hwservice, hwservice_manager_type;
+
+# TurboAdapter
+type hal_turbo_adapter_hwservice, hwservice_manager_type;
