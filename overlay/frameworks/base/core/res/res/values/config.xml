@@ -40,6 +40,9 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">500</integer>
 
+    <!-- Whether device has VOOC charging support -->
+   <bool name="config_hasVoocCharger">true</bool>
+
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
