@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2022 The aospOS Project
+# Copyright (C) 2022 The blissOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
+    $(LOCAL_DIR)/bliss_X2.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_X2-userdebug \
-    aosp_X2-eng
+    bliss_X2-userdebug \
+    bliss_X2-eng
