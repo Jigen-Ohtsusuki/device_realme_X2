@@ -62,6 +62,7 @@ public class DeviceSettings extends PreferenceFragment
     private static TwoStatePreference mSRGBModeSwitch;
     private static TwoStatePreference mOTGModeSwitch;
     private static TwoStatePreference mGameModeSwitch;
+    private static TwoStatePreference mEnableDolbyAtmos;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
