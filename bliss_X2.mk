@@ -37,6 +37,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 # BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
 BLISS_BUILD_VARIANT := gapps
 
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ2A.230305.008.C1/9619669:user/release-keys"
+BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ2A.230405.003.E1/9802792:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
