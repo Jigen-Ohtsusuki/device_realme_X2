@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
+# Bluetooth LDAC
+PRODUCT_PACKAGES += \
+    libldacBT_bco
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2240
 TARGET_SCREEN_WIDTH := 1080
