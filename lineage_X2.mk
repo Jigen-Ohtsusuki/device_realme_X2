@@ -34,9 +34,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS := true
 
-# lineage_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
-lineage_BUILD_VARIANT := gapps
-
 BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230705.001/10216780:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
