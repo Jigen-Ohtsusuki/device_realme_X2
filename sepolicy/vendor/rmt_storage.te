@@ -6,3 +6,4 @@ r_dir_file(vendor_rmt_storage, proc_oppoversion);
 
 get_prop(vendor_rmt_storage, default_prop);
 get_prop(vendor_rmt_storage, system_prop);
+
