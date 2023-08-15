@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The lineageOS Project
+# Copyright (C) 2022 The droidxOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,14 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common droidx stuff.
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # Inherit from X2 device
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_X2
+PRODUCT_NAME := droidx_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
@@ -33,6 +33,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS := true
+
+# DroidX UI
+DROIDX_GAPPS := false
 
 BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230705.001/10216780:user/release-keys"
 

@@ -93,8 +93,6 @@ ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
 ro.zram.periodic_wb_delay_hours=24
 
-# Havoc-OS
-ro.havoc.device.name=Realme X2
-ro.havoc.group.url=https://t.me/projectsfromlevi
-ro.havoc.maintainer=Levi
-ro.havoc.maintainer.username=titans4levi
+# DroidX Maintainer
+ro.droidx.maintainer=Levi
+
