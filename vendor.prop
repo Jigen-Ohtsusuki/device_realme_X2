@@ -202,6 +202,7 @@ vendor.display.enable_force_split=0
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
+debug.hwui.renderer=opengl
 
 # IMS
 persist.dbg.volte_avail_ovr=1
