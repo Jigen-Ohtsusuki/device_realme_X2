@@ -35,7 +35,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 # DroidX UI
-DROIDX_GAPPS := false
+DROIDX_GAPPS := true
 
 BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230705.001/10216780:user/release-keys"
 
