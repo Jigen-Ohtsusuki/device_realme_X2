@@ -45,6 +45,6 @@ TARGET_CORE_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := false
 TARGET_CORE_GMS_EXTRAS := true
 
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230705.001/10216780:user/release-keys"
+BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230805.001/10316531:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
