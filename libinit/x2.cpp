@@ -105,4 +105,10 @@ void vendor_load_properties() {
         set_ro_build_prop(source, "model", model);
         set_ro_build_prop(source, "name", model);
     }
+
+    # RisingOS Stuff
+
+    OverrideProperty("ro.rising.chipset", "Snapdragon 730G");
+    OverrideProperty("ro.rising.device", "Realme X2");
+    OverrideProperty("ro.rising.maintainer", "Levi Ackerman");
 }
