@@ -1,0 +1,2 @@
+# Allow the untrusted_app_29 context to read the rootfs directory
+allow untrusted_app_29 rootfs:dir read;
