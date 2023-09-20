@@ -101,6 +101,9 @@ ODM_MANIFEST_SKUS += \
     has_nfc
 ODM_MANIFEST_HAS_NFC_FILES := $(DEVICE_PATH)/manifest_has_nfc.xml
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/mmi_charging_enable
+
 # Media
 TARGET_USES_ION := true
 
