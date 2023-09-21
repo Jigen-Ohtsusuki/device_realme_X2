@@ -1,0 +1,23 @@
+# Allow the untrusted_app_29 context to read the rootfs directory
+allow untrusted_app_29 rootfs:dir read;
+
+# Allow the application com.android.MGC to open the specified path
+allow untrusted_app_29 vendor_default_prop:file open;
+allow untrusted_app_29 vendor_default_prop:file { getattr };
+allow untrusted_app_29 vendor_default_prop:file { map };
+allow untrusted_app_29 vendor_xdsp_device:chr_file { read };
+allow untrusted_app_29 vendor_xdsp_device:chr_file { open };
+allow untrusted_app_29 vendor_xdsp_device:chr_file { ioctl };
+allow untrusted_app_29 adsprpcd_file:file { read };
+allow untrusted_app_29 adsprpcd_file:file { open };
+allow untrusted_app_29 adsprpcd_file:dir { getattr };
+allow untrusted_app_29 adsprpcd_file:file { getattr };
+
+allow untrusted_app proc_tty_drivers:file { read };
+allow untrusted_app qemu_hw_prop:file { read };
+allow untrusted_app qemu_sf_lcd_density_prop:file { read };
+allow untrusted_app serialno_prop:file { read };
+allow untrusted_app proc:file { read };
+allow untrusted_app block_device:dir search;
+allow untrusted_app app_data_file:file { execute };
+allow untrusted_app shell_test_data_file:dir search;
