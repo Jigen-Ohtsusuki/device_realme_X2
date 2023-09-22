@@ -2,9 +2,6 @@
 vendor.oppo.hardware.camera.oppoAlgoProcessService::IOppoAlgoProcessService  u:object_r:hal_camera_hwservice:s0
 vendor.oppo.hardware.camera.oppopostproc::ICameraPostProc                    u:object_r:hal_camera_hwservice:s0
 
-# Dolby
-vendor.dolby.hardware.dms::IDms		                                             u:object_r:hal_dms_hwservice:s0
-
 # Fingerprint
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint          u:object_r:hal_fingerprint_hwservice:s0
 
