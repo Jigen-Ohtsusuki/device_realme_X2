@@ -24,6 +24,5 @@
         <MediaCodec name="OMX.google.raw.decoder" type="audio/raw" update="true" rank="1"/>
         <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
         <!-- SimpleOMXComponet based software decoder-->
-	<MediaCodec name="OMX.google.vorbis.decoder" type="audio/raw" update="true" rank="1"/>
     </Decoders>
 </Included>
