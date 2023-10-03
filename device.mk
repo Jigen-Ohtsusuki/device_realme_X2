@@ -354,6 +354,11 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
     DotKiller
 
+# Parts
+PRODUCT_PACKAGES += \
+    RealmeParts \
+    RealmeProximityHelper
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
