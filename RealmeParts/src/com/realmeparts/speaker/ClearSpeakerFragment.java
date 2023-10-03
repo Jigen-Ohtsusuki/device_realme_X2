@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.realmeparts.speaker;
+package org.device.RealmeParts.speaker;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
@@ -31,7 +31,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import com.realmeparts.R;
+import org.device.RealmeParts.R;
 
 import java.io.IOException;
 
@@ -77,8 +77,8 @@ public class ClearSpeakerFragment extends PreferenceFragment implements
 
     @Override
     public void onStop() {
-        stopPlaying();
         super.onStop();
+        stopPlaying();
     }
 
     public boolean startPlaying() {
@@ -107,9 +107,12 @@ public class ClearSpeakerFragment extends PreferenceFragment implements
 
     public void stopPlaying() {
         if (mMediaPlayer != null) {
-            mMediaPlayer.stop();
-            mMediaPlayer.reset();
-            mMediaPlayer.release();
+            if (mMediaPlayer.isPlaying()) {
+                mMediaPlayer.stop();
+                mMediaPlayer.reset();
+                mMediaPlayer.release();
+                mMediaPlayer=null;
+            }
         }
         mAudioManager.setParameters("status_earpiece_clean=off");
         mClearSpeakerPref.setEnabled(true);
