@@ -16,7 +16,7 @@
 *
 */
 
-package org.lineageos.settings.doze;
+package com.realmeparts.doze;
 
 import android.content.res.Resources;
 import android.util.Log;
@@ -120,7 +120,7 @@ public class Utils {
     public static String getStringForResourceName(final Resources res,
                                                   final String resourceName,
                                                   final String defaultValue) {
-        final int resId = res.getIdentifier(resourceName, "string", "org.lineageos.settings.device");
+        final int resId = res.getIdentifier(resourceName, "string", "com.realmeparts.device");
         if (resId <= 0) {
             Log.e(TAG, "No resource found for " + resourceName);
             return defaultValue;
