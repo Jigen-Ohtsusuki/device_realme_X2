@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "platform_vendor_realme_X2",
+    "target_path": "vendor/realme/X2",
+    "remote": "tequila-gitlab"
+  }
+]
+
