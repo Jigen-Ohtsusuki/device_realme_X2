@@ -37,6 +37,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 # Camera
 TARGET_BUILD_APERTURE_CAMERA := true
 
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230901.001/10750268:user/release-keys"
+BUILD_FINGERPRINT := "google/husky/husky:14/UD1A.231105.004/11010374:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
