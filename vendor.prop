@@ -262,9 +262,6 @@ telephony.lteOnCdmaDevice=1
 vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.telephony.default_network=22,22
 
-# Phase offsets
-debug.sf.early.sf.duration=16000000
-
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
