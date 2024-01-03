@@ -57,7 +57,6 @@ ro.securestorage.knox=false
 windowsmgr.max_events_per_sec=150
 ro.vendor.perf.scroll_opt=true
 touch.pressure.scale=0.1
-debug.sf.disable_backpressure=1
 debug.kill_allocating_task=0
 force_hw_ui=true
 ro.product.gpu.driver=1
