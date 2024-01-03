@@ -484,7 +484,7 @@ vendor/etc/cne/profileSlm.xml
 vendor/etc/cne/slm.conf
 
 # CNE - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
+vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
 vendor/bin/cnd|f86d7ff26cc8d3860eeb86d86512340c3fb083a2
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -631,7 +631,7 @@ vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
 # DRM (Widevine)
 odm/bin/hw/android.hardware.drm@1.3-service.widevine
 odm/etc/init/android.hardware.drm@1.3-service.widevine.rc
--odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 odm/lib64/mediadrm/libwvdrmengine.so
 odm/lib64/libwvhidl.so
 
@@ -982,7 +982,7 @@ vendor/lib64/vendor.display.color@1.5.so|4e6d3f0f86b991a19824228fe18c956b4539214
 vendor/lib64/vendor.display.postproc@1.0.so|86ef4e868f7abb95d555a4d086a8c4193920803f
 
 # PowerOffAlarm - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
 
 # QCC - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
@@ -1052,11 +1052,11 @@ odm/lib64/vendor.oplus.hardware.radio@1.0.so
 
 # Radio (system) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -system_ext/app/DeviceInfo/DeviceInfo.apk|4ff56a7e5abfe2faeb95ae8c967ef4cf72589b07
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 
 # Radio (vendor)
 vendor/bin/hw/qcrild
@@ -1146,7 +1146,7 @@ system_ext/lib64/libdiag_system.so|46b48593c913d5cbb05518b31721bb0f33e6c1ba
 system_ext/lib64/libimscamera_jni.so|0394fbe375893f9aa2fee5e28e5c657575025a12
 system_ext/lib64/libimsmedia_jni.so|a8271a46c31ed50a1f7f94d7ec78fb534f432296
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
--system_ext/priv-app/ims/ims.apk|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
+system_ext/priv-app/ims/ims.apk|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
 
 # Radio - IMS (vendor)
 vendor/bin/ims_rtp_daemon
@@ -1328,7 +1328,7 @@ vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
 # Time services - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
+vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
@@ -1390,7 +1390,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so|85a4e2ca843525db5c76486dbee4c5c7a672
 vendor/bin/cnss-daemon
 
 # WiFi Display (system) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
--system/framework/WfdCommon.jar|de1adc7a4adbb117123aa5bb116c5df83c686433
+system/framework/WfdCommon.jar|de1adc7a4adbb117123aa5bb116c5df83c686433
 system_ext/bin/rtspclient|2b0fb616517f078b8a57d35da44ce9ed49df7f1e
 system_ext/bin/rtspserver|48b5327d0b623390e99a50b009fb6bdd2fb11ccf
 system_ext/bin/wfdservice|633136fd78d4e7ad99e18e060c44ebe598271c84
@@ -1436,7 +1436,7 @@ system_ext/lib64/libwfduibcsink.so|f53f2538c93984c64d7727591cdf4791e5e858a6
 system_ext/lib64/libwfduibcsinkinterface.so|b4a174bd312660875d5c5f103aaa8fa689037def
 system_ext/lib64/libwfduibcsrc.so|bb7941336e3466f332f5702a0d1077c6c83318bb
 system_ext/lib64/libwfduibcsrcinterface.so|4ce2de4147249a1d5a73bda41dafa1e4a55958bf
--system_ext/priv-app/WfdService/WfdService.apk|aa6ec8349d702bef9569387029dc52ffcbf44c66
+system_ext/priv-app/WfdService/WfdService.apk|aa6ec8349d702bef9569387029dc52ffcbf44c66
 
 # WiFi Display (vendor) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/wfdhdcphalservice|40c3d329f49cbb56286d6a550cc8b12ac95048df
