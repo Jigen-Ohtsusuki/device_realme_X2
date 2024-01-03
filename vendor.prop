@@ -225,9 +225,6 @@ debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=1
 vendor.media.target.version=2
 
-# Netmgr
-ro.telephony.iwlan_operation_mode=legacy
-
 # NFC
 ro.hardware.nfc_nci=nqx.default
 
