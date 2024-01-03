@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The evolutionOS Project
+# Copyright (C) 2022 The aospOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,14 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from X2 device
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_X2
+PRODUCT_NAME := aosp_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
@@ -29,14 +29,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Music
-TARGET_BUILD_VIMUSIC := true
-
 # UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS := true
-
-# Gapps
-TARGET_USES_PICO_GAPPS := true
 
 # Camera
 TARGET_BUILD_APERTURE_CAMERA := true
