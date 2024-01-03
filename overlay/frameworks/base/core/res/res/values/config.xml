@@ -46,7 +46,13 @@
     <integer name="config_autoBrightnessLightSensorRate">500</integer>
 
     <!-- Whether device has VOOC charging support -->
-   <bool name="config_hasVoocCharger">true</bool>
+    <bool name="config_hasVoocCharger">true</bool>
+ 
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/voocchg_ing</string>
+
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
 
     <!-- Whether or not to skip the initial brightness ramps when the display transitions to
          STATE_ON. Setting this to true will skip the brightness ramp to the last stored active
