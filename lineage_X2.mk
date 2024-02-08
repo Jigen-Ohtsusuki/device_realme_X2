@@ -35,6 +35,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 # Camera
 TARGET_BUILD_APERTURE_CAMERA := true
 
-BUILD_FINGERPRINT := "google/husky/husky:14/UQ1A.231205.015/11084887:user/release-keys"
+BUILD_FINGERPRINT := "google/shiba/shiba:14/UQ1A.240205.004.B1/11318806:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
