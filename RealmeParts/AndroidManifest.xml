@@ -188,6 +188,10 @@
         <service android:name="com.realmeparts.doze.DozeService"
                 android:exported="false">
         </service>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            tools:replace="android:authorities"/>
     </application>
 </manifest>
 
