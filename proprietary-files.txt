@@ -1368,16 +1368,16 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a60
 # Subsystem - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/ssr_setup|dd70aee1b8e792c02d6515622e9da0505bcc254c
 
-# Thermal
+# Thermal - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 
 vendor/bin/hw/android.hardware.thermal@2.0-service.qti
-vendor/bin/thermal-engine
 vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc
-vendor/etc/init/init_thermal-engine.rc
 -vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
-vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
+vendor/bin/thermal-engine|9fd7e19e3cc0dfa7f58def0bde11eb482ec69201
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/lib64/libthermalclient.so|26475ef0d6b80fcf40c9490f795d21e46d3d9054
 
 # Time services - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
