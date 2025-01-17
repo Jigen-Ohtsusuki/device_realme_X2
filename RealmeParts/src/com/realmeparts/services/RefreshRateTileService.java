@@ -21,7 +21,6 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Icon;
-import android.os.SystemProperties;
 import android.provider.Settings;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
@@ -57,8 +56,7 @@ public class RefreshRateTileService extends TileService {
         } else {
             enabled = RefreshRateSwitch.isCurrentlyEnabled(this);
             RefreshRateSwitch.setPeakRefresh(this, enabled);
-
-	    getQsTile().setIcon(Icon.createWithResource(this,
+            getQsTile().setIcon(Icon.createWithResource(this,
                     GetSmoothDisplay() ? R.drawable.refresh_rate_90forced_icon : (enabled ? R.drawable.ic_refresh_tile_90 : R.drawable.ic_refresh_tile_60)));
             getQsTile().setState(GetSmoothDisplay() ? Tile.STATE_ACTIVE : (enabled ? Tile.STATE_ACTIVE : Tile.STATE_INACTIVE));
             getQsTile().setLabel(GetSmoothDisplay() ? "Smooth Display" : "Refresh Rate");
@@ -89,10 +87,8 @@ public class RefreshRateTileService extends TileService {
             RefreshRateSwitch.setForcedRefreshRate(-1);
             sharedPrefs.edit().putBoolean("refresh_rate_90Forced", false).apply();
             RefreshRateSwitch.setPeakRefresh(this, enabled);
-            float customRefreshRate = Float.parseFloat(SystemProperties.get("persist.high.refresh.rate", "90.0"));
-
-            Settings.System.putFloat(this.getContentResolver(), "PEAK_REFRESH_RATE".toLowerCase(), enabled ? 60f : customRefreshRate);
-            Settings.System.putFloat(this.getContentResolver(), "MIN_REFRESH_RATE".toLowerCase(), enabled ? 60f : customRefreshRate);
+            Settings.System.putFloat(this.getContentResolver(), "PEAK_REFRESH_RATE".toLowerCase(), enabled ? 60f : 90f);
+            Settings.System.putFloat(this.getContentResolver(), "MIN_REFRESH_RATE".toLowerCase(), enabled ? 60f : 90f);
         }
         getQsTile().setLabel(sharedPrefs.getBoolean("refresh_rate_90Forced", false) ? "Smooth Display" : "Refresh Rate");
         getQsTile().setIcon(Icon.createWithResource(this,
