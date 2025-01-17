@@ -190,7 +190,7 @@ ro.soc.model=SM7150
 ro.apk_verity.mode=2
 
 # Graphics
-debug.sf.disable_backpressure=1
+debug.sf.enable_gl_backpressure=1
 debug.sf.auto_latch_unsignaled=0
 debug.sf.early_phase_offset_ns=500000
 debug.sf.early_app_phase_offset_ns=500000
