@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_X2.mk
+    $(LOCAL_DIR)/lineage_X2.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_X2-userdebug \
-    tequila_X2-eng
+    lineage_X2-userdebug \
+    lineage_X2-eng
